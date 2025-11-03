@@ -1,6 +1,6 @@
 //ROT13
 const fs = require("fs");
-const input = fs.readFileSync("/dev/stdin", "utf-8").trim();
+const input = fs.readFileSync("/dev/stdin", "utf-8");
 
 let result = "";
 for (let i = 0; i < input.length; i++) {
@@ -20,3 +20,5 @@ for (let i = 0; i < input.length; i++) {
 }
 
 console.log(result);
+
+//....trim.......
