@@ -1,3 +1,5 @@
+// 주몽 갑옷 문제 - 브루트포스 2쌍 조합 구하기 
+
 const fs = require("fs");
 const input = fs.readFileSync(0, "utf8").trim().split("\n");
 

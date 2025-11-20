@@ -1,3 +1,6 @@
+
+//난쟁이 일곱명 키구하기  9C7 >9C2
+
 const fs = require("fs");
 const input = fs.readFileSync(0, "utf8").trim().split("\n").filter(Boolean);
 
