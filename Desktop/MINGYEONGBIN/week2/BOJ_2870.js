@@ -4,6 +4,7 @@ const input = fs.readFileSync(0, "utf8").trim().split("\n");
 const N = Number(input[0]);
 const numbers = [];
 
+
 for (let i = 1; i <= N; i++) {
   const matches = input[i].match(/\d+/g);
   if (!matches) continue;
@@ -20,3 +21,5 @@ numbers.sort((a, b) => {
 });
 
 console.log(numbers.join("\n"));
+
+//새로운 pr
